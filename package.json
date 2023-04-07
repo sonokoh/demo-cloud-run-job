@@ -1,0 +1,16 @@
+{
+  "name": "demo-cloud-run-job",
+  "version": "1.0.0",
+  "description": "Demo project for Node.js Cloud Run Job",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sonoko Hirano<sonoko.lavoro@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^6.9.5"
+  }
+}
